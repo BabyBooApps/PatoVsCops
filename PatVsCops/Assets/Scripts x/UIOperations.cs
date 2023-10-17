@@ -68,7 +68,7 @@ public class UIOperations : MonoBehaviour
     }
     public void ReplayButton()
     {
-        ADManager.Display_InterstitialAd();
+       // ADManager.Display_InterstitialAd();
         SceneManager.LoadScene("MainScene");
     }
 
@@ -111,7 +111,7 @@ public class UIOperations : MonoBehaviour
 
     public void WatchAdButton()
     {
-        ADManager.Display_RewardVideoAd();
+        //ADManager.Display_RewardVideoAd();
     }
 
     public void CustomButton()

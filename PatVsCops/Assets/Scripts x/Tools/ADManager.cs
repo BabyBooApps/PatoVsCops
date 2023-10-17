@@ -1,12 +1,12 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections;
-using GoogleMobileAds.Api;
+//using GoogleMobileAds.Api;
 
 
 public class ADManager : MonoBehaviour
 {
-    public static string App_ID = "ca-app-pub-9727856365139576~9721865901";
+   /* public static string App_ID = "ca-app-pub-9727856365139576~9721865901";
     public static string banner_ID = "ca-app-pub-9727856365139576/4469539227";
     public static string Interstitial_ID = "ca-app-pub-9727856365139576/9206860586";
     public static string Reward_ID = "ca-app-pub-9727856365139576/2422509126";
@@ -227,5 +227,5 @@ public class ADManager : MonoBehaviour
     public void HandleRewardBasedVideoLeftApplication(object sender, EventArgs args)
     {
         //MonoBehaviour.print("HandleRewardBasedVideoLeftApplication event received");
-    }
+    }*/
 }
